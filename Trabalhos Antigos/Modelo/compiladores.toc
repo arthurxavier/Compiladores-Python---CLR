@@ -1,0 +1,12 @@
+\select@language {brazil}
+\contentsline {chapter}{Lista de Figuras}{2}{chapter*.1}
+\contentsline {chapter}{Lista de Tabelas}{3}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{6}{chapter.1}
+\contentsline {section}{\numberline {1.1}Linha de comando}{6}{section.1.1}
+\contentsline {section}{\numberline {1.2}C\IeC {\'o}digos de programas}{7}{section.1.2}
+\contentsline {chapter}{\numberline {2}Imagens}{9}{chapter.2}
+\contentsline {part}{Ap\IeC {\^e}ndice}{11}{figure.caption.5}
+\contentsline {chapter}{\numberline {A}Exemplos de programas escritos em MiniJava }{11}{appendix.A}
+\contentsline {section}{\numberline {A.1}prog1.mj}{11}{section.A.1}
+\contentsline {section}{\numberline {A.2}fact.mj}{12}{section.A.2}
+\contentsfinish 
