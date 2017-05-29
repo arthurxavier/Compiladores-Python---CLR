@@ -1,0 +1,51 @@
+Intalar:
+	OCalm		OK
+	Python3.5	OK
+	CLR
+
+	Gerar codigo por partes em Python
+	Gerar codigo por partes em CLR
+		Descobri Usando C#
+
+usando mono para ver Assembly
+dmcs ProgramaC#.cs	#Gera Executavel
+mono ProgramaC#.exe	#Executa no terminal
+monodis ProgramaC#.exe 	#Gera assembly
+monodis ProbramC#.exe > nomearqu.il #Gera Assembly CLR
+
+dmcs 		ProgramaC#.cs		#Gera Executave
+ilasm    	exe.il 			#Gera exe.exe
+monodis 	ProgramaC#.exe 		#Gera assembly
+
+
+C# para il depois gerar executavel
+
+CIL
+
+CLR:
+Comentários
+O objeto aloca e libera o armazenamento para a seqüência que ele 
+controla por meio de um contêiner subjacente, do tipo Container, 
+que armazena Value elementos e cresce sob demanda. O objeto restringe 
+acesso fazendo Push e pop apenas o último elemento, a implementação de 
+uma fila first na última (também conhecido como uma fila de LIFO ou 
+pilha).
+
+
+
+Lexico:
+ 1 - No terminal, digite
+    ocamllex lexico.mll
+
+ 2 - Compile o código gerado
+    ocamlc -c lexico.ml
+
+ 3 - Entre no Ocaml
+     rlwrap ocaml
+ e depois digite
+    #use "carregador.ml";;
+
+ 4 - Use a função que produz os tokens diretamente de um arquivo
+ lex "teste.txt";;
+
+
