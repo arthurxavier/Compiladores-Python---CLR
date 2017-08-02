@@ -49,3 +49,16 @@ Lexico:
  lex "teste.txt";;
 
 
+------------------------------------------
+
+Entrega 3:
+Semantico e Interpretador
+
+ocamlbuild -use-ocamlfind -use-menhir -menhir "menhir --table" -package menhirLib interpreteTeste.byte
+
+rlwrap ocaml
+
+# verifica_tipos "../testes/e1.py";;
+
+# interprete "../testes/e1.py";;
+
